@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	
+	<Resource name="jdbc/Tienda" auth="Container"
+		type="javax.sql.DataSource" 
+		username="root" 
+		password="Eco_Admin"
+		driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://localhost:3306/tienda"
+		maxActive="10" maxIdle="4" />
+
+</Context>
